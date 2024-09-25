@@ -1,0 +1,56 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 1rem;
+  gap: 4rem;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.post-list > div {
+  margin-bottom: 1rem;
+  border: 1px solid #dfdfdf;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.Post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  border: 3px solid #444; 
+  margin: 0.5rem;
+  padding: 1rem;
+  height: auto;
+  margin-top: 3rem;
+  border-radius: 15px; 
+  background-color: #2a2a2a; 
+  color: #e0e0e0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.Post:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.Post h1 {
+  padding: 0.5rem;
+  font-size: 20px; 
+  text-align: center;
+  margin-top: 5px;
+  color: #ff9800; 
+}
+
+.Post p {
+  padding: 0.4rem;
+  margin: 10px;
+  color: #b0b0b0; 
+  line-height: 1.5;
+}
