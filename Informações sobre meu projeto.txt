@@ -1,0 +1,19 @@
+Fiz esse projeto com base nos métodos vistos em aula mas também usei o Google
+como auxilio, utilizei IA (chatGPT) como auxilio nas partes de estilização
+que foram permitidas
+
+fontes utilizadas:
+
+ChatGPT nas questões que foram permitidas
+
+Video de react sobre FetchAPI e Axios library: https://www.youtube.com/watch?v=je3FTTunyp4
+
+se for necessario para rodar o programa, use, no terminal os seguintes scripts:
+
+npm install (instala todas as dependencias necessarias)
+
+npm run dev
+
+npm run preview
+
+e clique no link localhost que o vscode fornece
